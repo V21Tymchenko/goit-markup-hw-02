@@ -31,7 +31,8 @@ li {
 .address:hover,
 .address:focus,
 .footer-contact:hover,
-.footer-contact:focus {
+.footer-contact:focus
+{
   color: var(--accent-color);
 }
 .btn:hover,
@@ -44,16 +45,21 @@ li {
   border-radius: 4px;
 }
 /* Header */
-.logo {
+.logo,
+.logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #000000;
 }
-.span {
+.logo{
+    color: #000000;
+}
+.logo-web,
+.accent{
   color: var(--accent-color);
 }
+
 .main-nav,
 .contact {
   font-weight: 500;
@@ -108,7 +114,7 @@ li {
 }
   /* Чем мы занимаемся */
 
-  .page-title {
+.page-title {
   font-size: 36px;
   line-height: 1.17;
    text-align: center;
@@ -138,12 +144,16 @@ li {
 .address,
 .footer-contact {
   line-height: 1.71;
+  font-style: normal;
 }
 .address {
   color: var(--main-color);
 }
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+}
+.logo-studio{
+color: var(--main-color);
 }
 
 /* PORTFOLIO.HTML */
@@ -165,6 +175,10 @@ li {
   letter-spacing: 0.06em;
 }
 .portfolio-text{
+font-size: 16px;
 line-height: 1.8;
 color: var(--secondary-text-color);
+}
+.portfolio-nav{
+    color:var(--main-text-color);
 }
